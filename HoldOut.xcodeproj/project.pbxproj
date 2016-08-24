@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3A782941D6D48170078727B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782931D6D48170078727B /* AppDelegate.swift */; };
+		E3A782961D6D48170078727B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3A782951D6D48170078727B /* GameScene.sks */; };
+		E3A782981D6D48170078727B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782971D6D48170078727B /* GameScene.swift */; };
+		E3A7829A1D6D48170078727B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782991D6D48170078727B /* GameViewController.swift */; };
+		E3A7829D1D6D48170078727B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A7829B1D6D48170078727B /* Main.storyboard */; };
+		E3A7829F1D6D48170078727B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A7829E1D6D48170078727B /* Assets.xcassets */; };
+		E3A782A21D6D48170078727B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A782A01D6D48170078727B /* LaunchScreen.storyboard */; };
+		E3A782AD1D6D48170078727B /* HoldOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782AC1D6D48170078727B /* HoldOutTests.swift */; };
+		E3A782B81D6D48170078727B /* HoldOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782B71D6D48170078727B /* HoldOutUITests.swift */; };
+		E3A782C61D6D97210078727B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A782C51D6D97210078727B /* GameOverScene.swift */; };
+		E3A782C81D6D99170078727B /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3A782C71D6D99170078727B /* victory.mp3 */; };
+		E3A782CA1D6D9AFA0078727B /* swordsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3A782C91D6D9AFA0078727B /* swordsound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3A782A91D6D48170078727B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A782881D6D48170078727B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A7828F1D6D48170078727B;
+			remoteInfo = HoldOut;
+		};
+		E3A782B41D6D48170078727B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A782881D6D48170078727B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A7828F1D6D48170078727B;
+			remoteInfo = HoldOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3A782901D6D48170078727B /* HoldOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A782931D6D48170078727B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3A782951D6D48170078727B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E3A782971D6D48170078727B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E3A782991D6D48170078727B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E3A7829C1D6D48170078727B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3A7829E1D6D48170078727B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A782A11D6D48170078727B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3A782A31D6D48170078727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A782A81D6D48170078727B /* HoldOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A782AC1D6D48170078727B /* HoldOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldOutTests.swift; sourceTree = "<group>"; };
+		E3A782AE1D6D48170078727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A782B31D6D48170078727B /* HoldOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A782B71D6D48170078727B /* HoldOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldOutUITests.swift; sourceTree = "<group>"; };
+		E3A782B91D6D48170078727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A782C51D6D97210078727B /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		E3A782C71D6D99170078727B /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		E3A782C91D6D9AFA0078727B /* swordsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swordsound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3A7828D1D6D48170078727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782A51D6D48170078727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782B01D6D48170078727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3A782871D6D48170078727B = {
+			isa = PBXGroup;
+			children = (
+				E3A782921D6D48170078727B /* HoldOut */,
+				E3A782AB1D6D48170078727B /* HoldOutTests */,
+				E3A782B61D6D48170078727B /* HoldOutUITests */,
+				E3A782911D6D48170078727B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3A782911D6D48170078727B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3A782901D6D48170078727B /* HoldOut.app */,
+				E3A782A81D6D48170078727B /* HoldOutTests.xctest */,
+				E3A782B31D6D48170078727B /* HoldOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3A782921D6D48170078727B /* HoldOut */ = {
+			isa = PBXGroup;
+			children = (
+				E3A782931D6D48170078727B /* AppDelegate.swift */,
+				E3A782951D6D48170078727B /* GameScene.sks */,
+				E3A782971D6D48170078727B /* GameScene.swift */,
+				E3A782991D6D48170078727B /* GameViewController.swift */,
+				E3A7829B1D6D48170078727B /* Main.storyboard */,
+				E3A7829E1D6D48170078727B /* Assets.xcassets */,
+				E3A782A01D6D48170078727B /* LaunchScreen.storyboard */,
+				E3A782A31D6D48170078727B /* Info.plist */,
+				E3A782C51D6D97210078727B /* GameOverScene.swift */,
+				E3A782C71D6D99170078727B /* victory.mp3 */,
+				E3A782C91D6D9AFA0078727B /* swordsound.mp3 */,
+			);
+			path = HoldOut;
+			sourceTree = "<group>";
+		};
+		E3A782AB1D6D48170078727B /* HoldOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A782AC1D6D48170078727B /* HoldOutTests.swift */,
+				E3A782AE1D6D48170078727B /* Info.plist */,
+			);
+			path = HoldOutTests;
+			sourceTree = "<group>";
+		};
+		E3A782B61D6D48170078727B /* HoldOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A782B71D6D48170078727B /* HoldOutUITests.swift */,
+				E3A782B91D6D48170078727B /* Info.plist */,
+			);
+			path = HoldOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3A7828F1D6D48170078727B /* HoldOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A782BC1D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOut" */;
+			buildPhases = (
+				E3A7828C1D6D48170078727B /* Sources */,
+				E3A7828D1D6D48170078727B /* Frameworks */,
+				E3A7828E1D6D48170078727B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoldOut;
+			productName = HoldOut;
+			productReference = E3A782901D6D48170078727B /* HoldOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3A782A71D6D48170078727B /* HoldOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A782BF1D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOutTests" */;
+			buildPhases = (
+				E3A782A41D6D48170078727B /* Sources */,
+				E3A782A51D6D48170078727B /* Frameworks */,
+				E3A782A61D6D48170078727B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3A782AA1D6D48170078727B /* PBXTargetDependency */,
+			);
+			name = HoldOutTests;
+			productName = HoldOutTests;
+			productReference = E3A782A81D6D48170078727B /* HoldOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3A782B21D6D48170078727B /* HoldOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A782C21D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOutUITests" */;
+			buildPhases = (
+				E3A782AF1D6D48170078727B /* Sources */,
+				E3A782B01D6D48170078727B /* Frameworks */,
+				E3A782B11D6D48170078727B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3A782B51D6D48170078727B /* PBXTargetDependency */,
+			);
+			name = HoldOutUITests;
+			productName = HoldOutUITests;
+			productReference = E3A782B31D6D48170078727B /* HoldOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3A782881D6D48170078727B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					E3A7828F1D6D48170078727B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KBKX8X5SZ7;
+					};
+					E3A782A71D6D48170078727B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E3A7828F1D6D48170078727B;
+					};
+					E3A782B21D6D48170078727B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E3A7828F1D6D48170078727B;
+					};
+				};
+			};
+			buildConfigurationList = E3A7828B1D6D48170078727B /* Build configuration list for PBXProject "HoldOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3A782871D6D48170078727B;
+			productRefGroup = E3A782911D6D48170078727B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3A7828F1D6D48170078727B /* HoldOut */,
+				E3A782A71D6D48170078727B /* HoldOutTests */,
+				E3A782B21D6D48170078727B /* HoldOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3A7828E1D6D48170078727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A782CA1D6D9AFA0078727B /* swordsound.mp3 in Resources */,
+				E3A782C81D6D99170078727B /* victory.mp3 in Resources */,
+				E3A782961D6D48170078727B /* GameScene.sks in Resources */,
+				E3A782A21D6D48170078727B /* LaunchScreen.storyboard in Resources */,
+				E3A7829F1D6D48170078727B /* Assets.xcassets in Resources */,
+				E3A7829D1D6D48170078727B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782A61D6D48170078727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782B11D6D48170078727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3A7828C1D6D48170078727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A782981D6D48170078727B /* GameScene.swift in Sources */,
+				E3A7829A1D6D48170078727B /* GameViewController.swift in Sources */,
+				E3A782C61D6D97210078727B /* GameOverScene.swift in Sources */,
+				E3A782941D6D48170078727B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782A41D6D48170078727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A782AD1D6D48170078727B /* HoldOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A782AF1D6D48170078727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A782B81D6D48170078727B /* HoldOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3A782AA1D6D48170078727B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A7828F1D6D48170078727B /* HoldOut */;
+			targetProxy = E3A782A91D6D48170078727B /* PBXContainerItemProxy */;
+		};
+		E3A782B51D6D48170078727B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A7828F1D6D48170078727B /* HoldOut */;
+			targetProxy = E3A782B41D6D48170078727B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3A7829B1D6D48170078727B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A7829C1D6D48170078727B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3A782A01D6D48170078727B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A782A11D6D48170078727B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3A782BA1D6D48170078727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3A782BB1D6D48170078727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3A782BD1D6D48170078727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoldOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E3A782BE1D6D48170078727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoldOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E3A782C01D6D48170078727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HoldOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoldOut.app/HoldOut";
+			};
+			name = Debug;
+		};
+		E3A782C11D6D48170078727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoldOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoldOut.app/HoldOut";
+			};
+			name = Release;
+		};
+		E3A782C31D6D48170078727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HoldOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoldOut;
+			};
+			name = Debug;
+		};
+		E3A782C41D6D48170078727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoldOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolware.HoldOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoldOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3A7828B1D6D48170078727B /* Build configuration list for PBXProject "HoldOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A782BA1D6D48170078727B /* Debug */,
+				E3A782BB1D6D48170078727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A782BC1D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A782BD1D6D48170078727B /* Debug */,
+				E3A782BE1D6D48170078727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3A782BF1D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A782C01D6D48170078727B /* Debug */,
+				E3A782C11D6D48170078727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3A782C21D6D48170078727B /* Build configuration list for PBXNativeTarget "HoldOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A782C31D6D48170078727B /* Debug */,
+				E3A782C41D6D48170078727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3A782881D6D48170078727B /* Project object */;
+}
